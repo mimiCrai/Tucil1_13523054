@@ -22,36 +22,39 @@ Untuk menjalankan program ini, Anda perlu menginstal:
     cd STIMA-Tucil1
     ```
 
-### Cara menjalankan program
-    Cara kompilasi:
-    -Pastikan path sudah di STIMA-Tucil1
+### Cara menggunakan program
+
+1. Kompilasi(Pastikan path sudah di STIMA-Tucil1)
     ```sh
     javac -d bin src/IqPuzzlePro.java
     ```
-    
-    Menjalankan program:
+2. Menjalankan program:
     ```sh
     java src/IqPuzzlePro.java
     ```
     Di dalam program, akan ditanya nama file input, yang harus sudah ada di dalam folder test dengan ekstensi ".txt".
 
-#### File Input
-    input HARUS diberikan sesuai dengan kriteria, yaitu:
-    -N adalah banyak baris, M banyak kolom, dan B banyak jenis blok.
-    -BOARD bisa berisi satu dari tiga jenis, yaitu DEFAULT/CUSTOM/PYRAMID. Ketika memilih custom, akan diminta untuk memberikan input board, dimana "X" adalah board yang bisa diletakkan sebuah block, dan "." adalah tempat block tidak boleh diletakkan. Kemudian, Apabila memilih PYRAMID, pastikan nilai N dan M sama.
-    -Sisa baris berisi bentuk block, gunakan huruf kapital (A-Z) dan jangan gunakan huruf yang sama. Dengan demikian, banyak block maksimum adalah 26. Untuk setiap block, pastikan bahwa tidak ada bagian dari block yang terputus. Gunakan " " untuk bagian kosong dari block.
+### File Input
+input HARUS diberikan sesuai dengan kriteria, yaitu:
+1. N adalah banyak baris, M banyak kolom, dan B banyak jenis blok.
+2. BOARD bisa berisi satu dari tiga jenis, yaitu DEFAULT/CUSTOM/PYRAMID. Ketika memilih custom, akan diminta untuk memberikan input board, dimana "X" adalah board yang bisa diletakkan sebuah block, dan "." adalah tempat block tidak boleh diletakkan. Kemudian, Apabila memilih PYRAMID, pastikan nilai N dan M sama.
+3. Sisa baris berisi bentuk block, gunakan huruf kapital (A-Z) dan jangan gunakan huruf yang sama. Dengan demikian, banyak block maksimum adalah 26. Untuk setiap block, pastikan bahwa tidak ada bagian dari block yang terputus. Gunakan " " untuk bagian kosong dari block.
     Contoh block berbentuk U:
+    ```sh
     U U
     U U
     UUU
+    ```
 
-    -Berikut adalah contoh file input yang benar:
+4. Berikut adalah contoh file input yang benar:
+    ```sh
     N M B
     BOARD
+    MAP(jika CUSTOM)
     B1
     B2
     ...
     BB
+    ```
 
-
--oleh Aloisius Adrian Stevan Gunawan (13523054)
+oleh Aloisius Adrian Stevan Gunawan (13523054)
