@@ -38,13 +38,13 @@ Untuk menjalankan program ini, Anda perlu menginstal:
 #### File Input
     input HARUS diberikan sesuai dengan kriteria, yaitu:
     -N adalah banyak baris, M banyak kolom, dan B banyak jenis blok.
-    -BOARD bisa berisi satu dari tiga jenis, yaitu DEFAULT/CUSTOM/PYRAMID. Ketika memilih custom, akan diminta untuk memberikan input board, dimana "X" adalah board yang bisa diletakkan sebuah block. Kemudian, Apabila memilih PYRAMID, pastikan nilai N dan M sama.
+    -BOARD bisa berisi satu dari tiga jenis, yaitu DEFAULT/CUSTOM/PYRAMID. Ketika memilih custom, akan diminta untuk memberikan input board, dimana "X" adalah board yang bisa diletakkan sebuah block, dan "." adalah tempat block tidak boleh diletakkan. Kemudian, Apabila memilih PYRAMID, pastikan nilai N dan M sama.
     -Sisa baris berisi bentuk block, gunakan huruf kapital (A-Z) dan jangan gunakan huruf yang sama. Dengan demikian, banyak block maksimum adalah 26. Untuk setiap block, pastikan bahwa tidak ada bagian dari block yang terputus. Gunakan " " untuk bagian kosong dari block.
     Contoh block berbentuk U:
     U U
     U U
     UUU
-    
+
     -Berikut adalah contoh file input yang benar:
     N M B
     BOARD
